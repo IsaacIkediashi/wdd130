@@ -1,7 +1,12 @@
+:root {
+  --padding: 10px;
+  --width: 150px;
+}
+
 
 nav {
   background-color: darkblue;
-  padding: 10px;
+  padding: var(--padding);
 }
 
 nav a {
@@ -15,7 +20,7 @@ h1 {
 }
 
 img {
-  width: 150px;
+  width: var(--width);
   height: auto;
   border: 1px solid black;
   padding: 2px;
@@ -23,7 +28,7 @@ img {
 }
 
 p {
-  padding: 10px;
+  padding: var(--padding);
 }
 
 main {
@@ -45,7 +50,7 @@ aside img {
 }
 
 main img {
-  width: 150px;
+  width: var(--width);
   height: auto;
 }
 p {
