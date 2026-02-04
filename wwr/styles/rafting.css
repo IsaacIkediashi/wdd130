@@ -18,13 +18,32 @@ body {
   color: var(--accent1-color);
 }
 
+header {
+  display: grid;
+  grid-template-columns: 120px 1fr 1fr;
+  align-items: center;
+  height: 200px;
+  
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  flex: 1 1 auto;
+  gap: 20px;
+  
+   
+}
 header, main, footer {
   width: 840px;
   margin: 0 auto;
+  
 }
 
 header img {
-  width: 220px;
+  width: 120px;
+  height: auto;
+ 
 }
 
 h1, h2 {
@@ -84,11 +103,32 @@ article {
   
 }
 
+.history {
+  display: flex;
+  gap: 20px;
+  padding-top: 16px;
+  
 
+
+}
+.history p {
+  width: 650px; 
+}
+section img {
+  width: 290px;
+  height: 16rem;
+}
   
 .hero article img {
   float: right;
   width: 125px;
   height: 120px;
   margin-left: 16px;
+}
+
+footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 600px;
 }
