@@ -98,6 +98,10 @@ h1 {
   width: 100%
 }
 
+h3 {
+  text-align: center;
+}
+
 article {
   position: absolute;
   top: 300px;
