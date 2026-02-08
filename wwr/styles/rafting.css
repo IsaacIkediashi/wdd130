@@ -48,7 +48,7 @@ header img {
  
 }
 
-h1, h2 {
+.hero h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   background-color: var(--accent2-color);
@@ -57,9 +57,14 @@ h1, h2 {
   font-size: 25px;
 }
 
-nav, p, section, article {
- margin: 16px;
- padding: 8px;
+article {
+  margin: 16px;
+  padding: 8px;
+}
+
+nav, p, section{
+ margin: 0px;
+ padding-top:8px;
 }
 
 nav a {
@@ -67,8 +72,7 @@ nav a {
 }
 
 .socialmedia a {
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
 .socialmedia a img {
@@ -87,7 +91,7 @@ nav a {
  height: auto;
 }
 
-h1 {
+.hero h1 {
   color: #fff;
   padding: 16px;
   background-color: var(--accent1-color);
@@ -120,9 +124,9 @@ article {
 }
 section img {
   width: 290px;
-  height: 16rem;
+  height: 190px;
 }
-  
+
 .hero article img {
   float: right;
   width: 125px;
@@ -130,9 +134,44 @@ section img {
   margin-left: 16px;
 }
 
+.adventure-images {
+  display: flex;
+  padding-top: 20px;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+  
+}
+figure img {
+  width: 100px;
+  height: 90px;
+}
 footer nav {
+  display: flex;
+  padding-right: 48px;
+  
+}
+
+footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 600px;
+  gap: 350px;
+ 
+}
+
+.contact-page p {
+  font-size: 20px;
+  text-align: center;
+}
+.flex-items {
+  display: flex;
+  gap: 70px;
+  padding-top: 15px;
+}
+
+.employees {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
