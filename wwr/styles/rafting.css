@@ -48,7 +48,7 @@ header img {
  
 }
 
-.hero h1, h2 {
+.hero h1, .section h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   background-color: var(--accent2-color);
@@ -160,9 +160,17 @@ footer {
  
 }
 
-.contact-page p {
+
+.contact-page h1, p{ 
   font-size: 20px;
   text-align: center;
+}
+form {
+  width: 350px;
+}
+.map {
+  height: 100px;
+  width: ;
 }
 .flex-items {
   display: flex;
@@ -170,8 +178,71 @@ footer {
   padding-top: 15px;
 }
 
+
+
+.column2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 10px;
+  
+}
+.flex-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.map {
+  width: 100%;
+  height: 250px;
+}
+input[type=text] {
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid rgb(0, 0, 0);
+  padding-left: 7px;
+}
+input[type=email] {
+  height: 30px;
+  padding-left: 7px;
+  border-radius: 3px;
+  border: 1px solid rgb(0, 0, 0)
+}
+
+
+.grid-item {
+  display: grid;
+  gap: 10px;
+}
+
+.service-section {
+  border: 1px solid rgb(0,0,0);
+  margin-top: 20px;
+}
+
+figure img {
+  width: 100px;
+  height: 100px;  
+  padding-top: 10px;
+  
+}
+
+.service-section h2 {
+  text-align: center;
+}
+
 .employees {
   display: flex;
-  gap: 20px;
+  gap: 150px;
   justify-content: center;
+  height: 150px;
+}
+
+button {
+  border-radius: 3px;
+  height: 30px;
+  border: 1px solid rgb(0, 0, 0)/0.2;
+}
+
+.subscription label {
+  width: 400px;
 }
