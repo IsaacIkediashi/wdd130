@@ -48,7 +48,7 @@ header img {
  
 }
 
-.hero h1, .section h2 {
+.hero h1, .section-h2 h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   background-color: var(--accent2-color);
@@ -62,7 +62,7 @@ article {
   padding: 8px;
 }
 
-nav, p, section{
+nav,  p, section{
  margin: 0px;
  padding-top:8px;
 }
@@ -105,6 +105,7 @@ nav a {
 .heading2 {
   padding: 0;
   background-color: var(--secondary-color);
+  text-align: center;
 }
 
 article {
@@ -161,48 +162,48 @@ footer {
 }
 
 
-.contact-page h1, p{ 
+.contact-page h1, .contact-page p{ 
   font-size: 20px;
   text-align: center;
 }
+
 form {
-  width: 350px;
+  width: 400px;
 }
-.map {
-  height: 100px;
-  width: ;
+iframe {
+  height: 337px;
+  width: 360px;
 }
-.flex-items {
-  display: flex;
-  gap: 70px;
+.grid-items {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 60px;
   padding-top: 15px;
+  
+  
 }
-
-
 
 .column2 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   padding-top: 10px;
-  
+  width: 370px;
+  gap: 50px;
 }
 .flex-div {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.map {
-  width: 100%;
-  height: 250px;
-}
+
 input[type=text] {
-  height: 30px;
+  height: 35px;
   border-radius: 3px;
   border: 1px solid rgb(0, 0, 0);
   padding-left: 7px;
 }
 input[type=email] {
-  height: 30px;
+  height: 35px;
   padding-left: 7px;
   border-radius: 3px;
   border: 1px solid rgb(0, 0, 0)
@@ -212,6 +213,7 @@ input[type=email] {
 .grid-item {
   display: grid;
   gap: 10px;
+  width: 370px;
 }
 
 .service-section {
@@ -232,17 +234,36 @@ figure img {
 
 .employees {
   display: flex;
-  gap: 150px;
+  gap: 60px;
   justify-content: center;
   height: 150px;
 }
 
 button {
   border-radius: 3px;
-  height: 30px;
+  height: 35px;
   border: 1px solid rgb(0, 0, 0)/0.2;
 }
 
 .subscription label {
-  width: 400px;
+  width: 320px;
+}
+
+.label-flex {
+  display: flex;
+  gap: 3px;
+  width: 360px;
+  justify-content: space-around;
+ 
+}
+
+textarea {
+  height: 60px;
+  padding-left: 7px;
+  border-radius: 3px;
+  font-family: var(--body-font);
+  border: 1px solid rgb(0, 0, 0);
+  padding-top: 5px;
+  font-size: 0.91rem;
+ 
 }
