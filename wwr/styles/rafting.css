@@ -7,7 +7,7 @@
   --body-font: Arial, Helvetica, sans-serif;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,7 +25,7 @@ header {
   height: 200px;
   padding: 20px 80px;
   gap: 90px;
-  
+
 }
 
 .navigation {
@@ -36,19 +36,23 @@ header {
   padding-left: 200px;
   width: 600px;
 }
-header, main, footer {
+
+header,
+main,
+footer {
   width: 840px;
   margin: 0 auto;
-  
+
 }
 
 header img {
   width: 220px;
   height: auto;
- 
+
 }
 
-.hero h1, .section-h2 h2 {
+.hero h1,
+.section-h2 h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   background-color: var(--accent2-color);
@@ -62,9 +66,11 @@ article {
   padding: 8px;
 }
 
-nav,  p, section{
- margin: 0px;
- padding-top:8px;
+nav,
+p,
+section {
+  margin: 0px;
+  padding-top: 8px;
 }
 
 nav a {
@@ -72,7 +78,7 @@ nav a {
 }
 
 .socialmedia a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .socialmedia a img {
@@ -85,10 +91,10 @@ nav a {
   position: relative;
 }
 
-.hero img{
- display: block;
- width: 100%;
- height: auto;
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .hero h1 {
@@ -118,11 +124,13 @@ article {
   display: flex;
   gap: 20px;
   padding-top: 16px;
-  
+
 }
+
 .history p {
-  width: 650px; 
+  width: 650px;
 }
+
 section img {
   width: 290px;
   height: 190px;
@@ -141,16 +149,18 @@ section img {
   gap: 30px;
   justify-content: center;
   text-align: center;
-  
+
 }
+
 figure img {
   width: 100px;
   height: 90px;
 }
+
 footer nav {
   display: flex;
   padding-right: 48px;
-  
+
 }
 
 footer {
@@ -158,11 +168,11 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 350px;
- 
+
 }
 
-
-.contact-page h1, .contact-page p{ 
+.contact-page h1,
+.contact-page p {
   font-size: 20px;
   text-align: center;
 }
@@ -170,17 +180,18 @@ footer {
 form {
   width: 400px;
 }
+
 iframe {
   height: 337px;
   width: 360px;
 }
+
 .grid-items {
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 60px;
   padding-top: 15px;
-  
-  
+
 }
 
 .column2 {
@@ -190,9 +201,14 @@ iframe {
   width: 370px;
   gap: 50px;
 }
+
+.grid-div {
+  display: grid;
+  gap: 10px;
+}
+
 .flex-div {
   display: flex;
-  flex-direction: column;
   gap: 10px;
 }
 
@@ -200,15 +216,17 @@ input[type=text] {
   height: 35px;
   border-radius: 3px;
   border: 1px solid rgb(0, 0, 0);
+  font-size: 0.91rem;
   padding-left: 7px;
 }
+
 input[type=email] {
   height: 35px;
   padding-left: 7px;
   border-radius: 3px;
-  border: 1px solid rgb(0, 0, 0)
+  font-size: 0.91rem;
+  border: 1px solid rgb(0, 0, 0);
 }
-
 
 .grid-item {
   display: grid;
@@ -217,15 +235,15 @@ input[type=email] {
 }
 
 .service-section {
-  border: 1px solid rgb(0,0,0);
+  border: 1px solid rgb(0, 0, 0);
   margin-top: 20px;
 }
 
 figure img {
   width: 100px;
-  height: 100px;  
+  height: 100px;
   padding-top: 10px;
-  
+
 }
 
 .service-section h2 {
@@ -254,7 +272,7 @@ button {
   gap: 3px;
   width: 360px;
   justify-content: space-around;
- 
+
 }
 
 textarea {
@@ -265,5 +283,5 @@ textarea {
   border: 1px solid rgb(0, 0, 0);
   padding-top: 5px;
   font-size: 0.91rem;
- 
+
 }
