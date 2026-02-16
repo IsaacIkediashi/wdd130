@@ -201,8 +201,8 @@ iframe {
   width: 370px;
   gap: 50px;
 }
-.flex-div {
-  display: flex;
+.grid-div {
+  display: grid;
   gap: 10px;
 }
 
@@ -274,5 +274,9 @@ textarea {
   border: 1px solid rgba(0, 0, 0, 0.3);
   padding-top: 5px;
   font-size: 0.91rem;
- 
+}
+
+.flex-item {
+  display: flex;
+  gap: 10px;
 }
