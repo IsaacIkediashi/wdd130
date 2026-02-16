@@ -200,6 +200,7 @@ iframe {
   padding-top: 10px;
   width: 370px;
   gap: 50px;
+  align-items: center;
 }
 
 .grid-div {
