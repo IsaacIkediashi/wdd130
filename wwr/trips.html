@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=" This page gives an overview and information about the owners and our beloved staff, and our exciting basic trip summaries.">
+  <meta name="description" content="Go through our exciting rafting trips, from beginner-friendly routes to extreme rapids. View trip details, gear provided, safety measures, and everything you need for your river adventure.">
+
   <meta name="author" content="Isaac Ikediashi">
   <link rel="stylesheet" href="styles/rafting.css">
   <title>Our Trips</title>
 </head>
 <body>
- <header>
-   <img src="images/z-excitingexpedition.jpg" alt="A Rafting logo">
+ <div class="trip-page">
+  <header>
+   <img src="images/z-excitingexpedition.jpg" alt="A Rafting logo" class="header-image">
    <nav>
     <ul class="navigation">
     <li><a href="index.html">Home</a></li> 
@@ -20,16 +22,114 @@
     </ul>
    </nav>
   </header> 
-  <main class="trip-page">
-   
+  <main>
+    
+    <div class="call-action">
+    <p>Get Life Changing Tickets</p>
+    <a href="trips.html"><button class="action-btn" type="submit">Apply Now</button></a>
+    </div>
+   <section class="trips-section">
+   <h2 class="trips-title">Our River Adventures</h2>
+ 
+   <div class="card-grid">
+    <div class="trip-card">
+    <img src="images/happy_adventure.jpg" alt="Half Day White Water Rafting Adventure">
+    <div class="trip-info">
+      <h3>Half-Day Adventure</h3>
+      <p>
+        Perfect for beginners and families, this 3-hour guided rafting trip 
+        navigates exciting Class II-III rapids. Participants receive a full 
+        safety briefing, helmets, life jackets, and paddles.
+      </p>
+      <p><strong>Equipment Included:</strong> Helmet, life jacket, paddle, safety orientation.</p>
+    </div>
+  </div>
+
+  <div class="trip-card">
+    <img src="images/full_day.jpg" alt="Full Day River Rafting Expedition">
+    <div class="trip-info">
+      <h3>Full-Day Expedition</h3>
+      <p>
+        A full-day adventure through scenic river canyons featuring 
+        thrilling Class III-IV rapids. This trip includes a riverside lunch, 
+        advanced paddling instruction, and breathtaking natural views.
+      </p>
+      <p><strong>Equipment Included:</strong> All rafting gear, lunch, dry bags, safety team.</p>
+    </div>
+  </div>
+
+  <div class="trip-card">
+    <img src="images/extreme_rapids.jpg" alt="Extreme Rapids White Water Experience">
+    <div class="trip-info">
+      <h3>Extreme Rapids Experience</h3>
+      <p>
+        Designed for thrill-seekers, this advanced trip tackles powerful 
+        Class IV-V rapids. Participants must have prior rafting experience. 
+        Our expert guides lead this adventure with strict 
+        safety protocols.
+      </p>
+      <p><strong>Equipment Included:</strong> Safety gear, helmets, life jackets, guide team.</p>
+    </div>  
+  </div>
+   </div>
+</section>
+
+<section class="trips-table-section">
+  <h2>Trip Comparison Table</h2>
+
+  <table class="trips-table">
+    <thead>
+      <tr>
+        <th>Trip Name</th>
+        <th>Duration</th>
+        <th>Difficulty</th>
+        <th>Rapids Class</th>
+        <th>Price</th>
+        <th>Equipment Included</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Half-Day Adventure</td>
+        <td>3 Hours</td>
+        <td>Beginner Friendly</td>
+        <td>Class II-III</td>
+        <td>$75</td>
+        <td>Helmet, Life Jacket, Paddle</td>
+      </tr>
+
+      <tr>
+        <td>Full-Day Expedition</td>
+        <td>8 Hours</td>
+        <td>Intermediate</td>
+        <td>Class III-IV</td>
+        <td>$150</td>
+        <td>All Rafting Gear, Lunch, Dry Bags</td>
+      </tr>
+
+      <tr>
+        <td>Extreme Rapids Experience</td>
+        <td>6 Hours</td>
+        <td>Advanced</td>
+        <td>Class IV-V</td>
+        <td>$220</td>
+        <td>Full Safety Gear, Expert Guide Team</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
  </main>
  <footer>
   <p>&copy; 2026 | Great Waterways | Isaac Ikediashi</p>
   <nav class="socialmedia">
    <a href="https://facebook.com"><img src="images/facebook.jpg" alt="Facebook Icon"></a>
-   <a href="https://telegram.com"><img src="images/telegram.jpg" alt="LinkedIn Icon"></a>
-   <a href="https://Instagram.com"><img src="images/instagram.jpg" alt="Instagram Icon"></a>
+   <a href="https://telegram.com"><img src="images/telegram.jpg" alt="Telegram Icon"></a>
+   <a href="https://instagram.com"><img src="images/instagram.jpg" alt="Instagram Icon"></a>
   </nav>
  </footer>
+ </div>
+ 
 </body>
 </html>
